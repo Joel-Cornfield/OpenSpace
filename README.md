@@ -1,11 +1,11 @@
-# OpenSpace# 
+# OpenSpace
 Simple web game where you launch a rocket from an uninhabited planet. Game includes a control panel, allowing you to launch the rocket.
 
 You can find the original project description and tasks on [Hyperskill](https://hyperskill.org/projects/143?track=5).
 
 Check out my hyperskill profile: https://hyperskill.org/profile/604344431
 
-<img src="https://github.com/Joel-Cornfield/CaseConverter/blob/main/screenshot.png">
+<img src="https://github.com/Joel-Cornfield/OpenSpace/blob/main/preview.gif">
 
 # Features #
 * Control panel 
