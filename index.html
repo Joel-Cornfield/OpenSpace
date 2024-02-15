@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="space">
+        <div class="planet-area">
+            <img class="planet" src="https://stepik.org/media/attachments/lesson/452681/mars.png"/>
+            <img class="rocket" id="rocket" src="https://stepik.org/media/attachments/lesson/452681/rocket.png"/>
+        </div>
+        <div class="control-panel">
+            <div class="control-panel__inner">
+                <input type="password" name="password" id="password" placeholder="Enter password to unlock"/>
+                <input type="submit" id="unlock" value="Ok">
+                <div class="check-buttons">
+                    <input type="checkbox" class="check" disabled>
+                    <input type="checkbox" class="check" disabled>
+                    <input type="checkbox" class="check" disabled>
+                    <input type="checkbox" class="check" disabled>
+                    <input type="checkbox" class="check" disabled>
+                    <input type="checkbox" class="check" disabled>
+                </div>
+                <div class="levers">
+                    <input type="range" class="vertical-slider" orient="vertical" disabled>
+                    <input type="range" class="vertical-slider" orient="vertical" disabled>
+                    <input type="range" class="vertical-slider" orient="vertical" disabled>
+                    <input type="range" class="vertical-slider" orient="vertical" disabled>
+                    <input type="range" class="vertical-slider" orient="vertical" disabled>
+                </div>
+                <input type="submit" id="launch-btn" class="launch-btn" value="Launch" disabled>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </div>
+</body>
+</html>
